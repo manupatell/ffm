@@ -1,0 +1,28 @@
+{
+  "name": "your-bot-name",
+  "description": "Telegram bot for video manipulation using FFmpeg",
+  "repository": "https://github.com/your_username/your_repository",
+  "keywords": ["telegram", "bot", "ffmpeg"],
+  "env": {
+    "TELEGRAM_BOT_TOKEN": {
+      "description": "Your Telegram Bot Token",
+      "required": true
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "scripts": {
+    "postdeploy": "python -m nltk.downloader stopwords punkt"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
