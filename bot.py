@@ -5,7 +5,7 @@ import subprocess
 import re
 
 # Replace 'YOUR_TELEGRAM_BOT_TOKEN' with your actual bot token
-TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+TOKEN = '6975498555:AAGAFGB8brNexbvocEMmEGSSJL_rw9N80RM'
 
 # Function to handle the /start command
 def start(update, context):
