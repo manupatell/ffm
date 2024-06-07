@@ -1,5 +1,6 @@
 import os
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.ext import Updater, CommandHandler, MessageHandler
+from telegram import Filters
 from telegram import ChatAction
 import subprocess
 import re
